@@ -1,0 +1,38 @@
+body {
+	display: flex;
+}
+.calculator-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	height: 500px;
+	width: 400px;
+	box-shadow: 0 5px 20px rgb(0 0 0 / 0.2);
+	border-radius: 10px;
+}
+
+.calc-display {
+	box-shadow: 0 5px 20px rgb(0 0 0 / 0.2);
+	border-radius: 10px;
+	width: 80%;
+	height: 15%;
+}
+button {
+	//width: 50px;
+	//height: 50px;
+}
+
+.button-container {
+	width: 80%;
+	height: 75%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	gap: 10px;
+}
+
+.btn-span2 {
+	grid-column: span 2;
+}
